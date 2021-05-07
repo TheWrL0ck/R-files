@@ -1,0 +1,16 @@
+{
+  name <- c("Max", "Philip", "Ron", "Harry", "Ginni")
+  age <- c(25, 32, 40, 36, 45)
+  profession <- c("Engineer", "Doctor", "Pilot", "Lawyer", "Teacher")
+  grade <- c("B", "A", "O", "E", "B")
+  player_1 <- data.frame(player_no,name,age,profession,grade)
+  print(player_1)
+  player_no <- c(6,7)
+  name <- c("Gamli","Hamlet")
+  age <- c(19, 32)
+  profession <- c("Poet", "Singer")
+  grade <- c("A", "E")
+  player_2 <- data.frame(player_no, name, age, profession, grade)
+  df <- rbind(player_1,player_2)
+  print(df)
+}

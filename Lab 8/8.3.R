@@ -1,0 +1,10 @@
+g1=function(){
+  s1="Hello"
+  s2="World"
+  s3="Hello"
+  s4="New_World"
+  myFactor=factor(c(s1,s2,s3,s4))
+  print(myFactor)
+  cat("Replication:",4-nlevels(myFactor))
+}
+g1()

@@ -1,0 +1,5 @@
+data_list <-list(c("Jan","Feb","March"), matrix(c(1,2,3,4,5,8), nrow=2), list("Red",12.3))
+names(data_list)<-c("Month","Matrix","Misc")
+print(data_list$Matrix)
+print(data_list$Misc)
+print(data_list$Month)

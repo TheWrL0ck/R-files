@@ -1,0 +1,5 @@
+setwd("D:/R files/Lab 10")
+dt<-read.xlsx("Studentxls.xlsx",sheetIndex=1)
+print(dt)
+dt2<-read.xlsx("Studentxls.xlsx",sheetIndex=2)
+print(dt2)
